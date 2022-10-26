@@ -17,11 +17,10 @@ body {
   --primary: rgb(48, 155, 141);
   --secondary: white;
 }
-p { 
+p {   
   color: black;
   display: flex;
-  position: left;
-}
+  }
 h2 {
   color: whitesmoke;
 }
