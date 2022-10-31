@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "comic sans", monospace;
+    width: cacl(100vw - (100vw - 100%));
+    background-image: url(../assets/FOLLETO\ 3.jpg);
+    background-repeat: no-repeat;
+    /* background-position: 50px 25px;*/
+    /*background-position: absolute;*/
+    height: 900px;
+    background-size: cover;
+    position: absolute;
+    min-height: 100vh;
+  }
+  
+  :root {
+    --primary: rgb(48, 155, 141);
+    --secondary: white;
+  }
+  
+  @media (min-width: 760px) {
+    
+  }

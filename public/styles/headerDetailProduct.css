@@ -3,7 +3,7 @@ header {
   padding: 16px 32px;
   position: sticky;
   top: 0;
-  width: 1190px;
+  width: 100%;
 }
 
 header nav ul {
