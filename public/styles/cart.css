@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: cacl(100vw - (100vw - 100%));
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main {
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+  padding: 16px 32px;
+  margin-top: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cant {
+  width: 90px;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.description {
+  padding: 10px;
+}
+
+.price {
+  padding: 10px;
+}
+
+.material-icons-outlined {
+  display: flex;
+  align-items: baseline;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: rgb(38, 165, 154);
+  box-shadow: 3px 3px 11px black;
+}
+
+.buyDiv {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+.buy {
+  width: 300px;
+  height: 100px;
+  background-color: rgb(38, 165, 154);
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 3px 3px 11px black;
+}
+
+.buy:active {
+  width: 250px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(../assets/FONDO\ PRODUCTOS\ DESKTOP.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .tot {
+    color: rgb(255, 255, 255);
+    border-color: black;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .product {
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 3px 3px 11px black;
+  }
+
+  .title {
+    font-weight: bolder;
+  }
+}

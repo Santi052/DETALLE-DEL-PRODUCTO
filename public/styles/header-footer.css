@@ -1,0 +1,88 @@
+header {
+  background-color: rgb(48, 179, 157);
+  padding: 16px 32px;
+  top: 0;
+  width: 100%;  
+  box-shadow: 3px 3px 11px black;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+header nav ul li {
+    padding: 4px 8px;
+    transition: all 0.5s;
+    cursor: pointer;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    list-style: none;
+  }
+  
+  header nav ul li:hover {
+    background-color: rgb(28, 104, 95);
+  }
+
+
+  .buscar input {
+    display: inline-block;
+    position: absolute;
+    padding: 0px;
+    width: 50px;
+    top: 180px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+  }
+
+  footer {
+    background-color: rgb(48, 179, 157);
+    width: 100%;
+    margin-top: auto;
+    box-shadow: 3px 3px 19px black;
+  }
+  
+   footer nav ul {
+    padding: 8px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 10px;
+  }
+  footer nav ul li {
+      padding: 4px 8px;
+      transition: all 0.5s;
+      cursor: pointer;
+      list-style: none;
+    }
+    
+    footer nav ul li a {
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      box-shadow: #3b5999;
+      list-style: none;
+    }
+    
+    footer nav ul li:hover {
+      background-color: rgb(28, 104, 95);
+    }
+    :root {
+        --facebook: #3b5999;
+        --instagram: #e4405f;
+    }
+    .icon-search {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 20px;
+
+    }

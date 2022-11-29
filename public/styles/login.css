@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: cacl(100vw - (100vw - 100%));
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main {
+  height: 100%;
+}
+.title {
+  text-align: center;
+  padding: 16px 32px;
+  margin-top: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 6px;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  width: calc(50% - 1em);
+  align-items: center;
+}
+form > div > input,
+form > div > select {
+  width: 100%;
+  padding: 0.2em 0.5em;
+  border-radius: 8px;
+
+  margin-top: 0.5em;
+  outline: none;
+}
+.confirm {
+  text-align: center;
+}
+
+.login {
+  margin-bottom: 1em;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(38, 165, 154);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(../assets/FONDO\ PRODUCTOS\ DESKTOP.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login:hover {
+    background-color: rgb(22, 126, 117);
+  }
+}
